@@ -1,0 +1,107 @@
+html {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    background-color: #E0E8FF;
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+}
+
+.card {
+    height: 585px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.card-copy {
+    color: hsl(224, 23%, 55%);
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding: 0px 10px;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+}
+
+.card-subbox {
+    padding: 10px 20px;
+}
+
+.pricing {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 8px;
+}
+
+.pricing-price {
+    max-width: 40%;
+    padding-right: 30px;
+}
+
+.annual {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.year {
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    color: #382AE1;
+}
+
+.change:hover {
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    padding: 14px 20px;
+    margin-top: 29px;
+    border-radius: 10px;
+    background-color: #382AE1;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 15px 16px -4px rgba(0, 0, 0, 0.28);
+}
+
+.payment:hover {
+    background-color: #766CF1;
+}
+
+.cancel {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
